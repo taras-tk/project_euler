@@ -1,4 +1,13 @@
+*.o
+*.a
+*.so
+
+go/project_euler.iml
 go/.idea/
 go/.project
 go/.settings/
-go/project_euler.iml
+go/.vscode/
+go/bin/
+go/pkg/
+go/src/github.com/
+go/src/golang.org/
