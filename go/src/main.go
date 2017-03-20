@@ -1,9 +1,9 @@
 package main
 
 import (
-	"./solutions"
+	"solutions"
 )
 
 func main() {
-	solutions.Pr23()
+	solutions.Pr24()
 }
