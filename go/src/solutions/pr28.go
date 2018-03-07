@@ -16,15 +16,15 @@ import (
 )
 
 func genMatrix(dimension int) (result [][]int) {
-    // 21 22 23 24 25
-    // 20  7  8  9 10
-    // 19  6  1  2 11
-    // 18  5  4  3 12
+	// 21 22 23 24 25
+	// 20  7  8  9 10
+	// 19  6  1  2 11
+	// 18  5  4  3 12
 	// 17 16 15 14 13
 
 	result = make([][]int, dimension)
-    for i := range result {
-        result[i] = make([]int, dimension)
+	for i := range result {
+		result[i] = make([]int, dimension)
 	}
 
 	maxI := dimension - 1
