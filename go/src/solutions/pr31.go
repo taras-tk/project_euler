@@ -43,8 +43,12 @@ func calc() (result [][]int) {
 
 func Pr31() {
 	calc1 := calc()
-	fmt.Println(calc1)
+	// fmt.Println(calc1)
 	fmt.Println(len(calc1))
+	fmt.Printf("Result: %d\n", len(calc1)+1)
 }
 
-// Incorrect: 73681
+// ➜  src git:(master) ✗ time go run main.go
+// 73681
+// Result: 73682
+// go run main.go  5,76s user 0,08s system 104% cpu 5,600 total
