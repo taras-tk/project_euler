@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	solutions.Pr31()
+	solutions.Pr32()
 }
